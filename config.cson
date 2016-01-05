@@ -1,0 +1,22 @@
+"*":
+  "exception-reporting":
+    userId: "0521511c-8371-76de-eb8d-e549bc2bdb8e"
+  welcome:
+    showOnStartup: false
+  core:
+    audioBeep: false
+    themes: [
+      "solarized-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    invisibles: {}
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: true
+    showInvisibles: true
+    showIndentGuide: true
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  "preview-plus": {}
+  linter: {}
+  "autocomplete-plus": {}
