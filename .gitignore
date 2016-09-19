@@ -1,6 +1,9 @@
-.apm
+.apm/
 .node-gyp/
+blob-store/
+compile-cache/
 packages/
-compile-cache
 storage/
 dev
+.atomrc
+config.cson
