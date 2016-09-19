@@ -1,8 +1,5 @@
 "*":
-  "exception-reporting":
-    userId: "0521511c-8371-76de-eb8d-e549bc2bdb8e"
-  welcome:
-    showOnStartup: false
+  "autocomplete-plus": {}
   core:
     audioBeep: false
     themes: [
@@ -11,12 +8,20 @@
     ]
   editor:
     invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
     tabLength: 4
     zoomFontWhenCtrlScrolling: true
-    showInvisibles: true
-    showIndentGuide: true
-  "vim-mode":
-    useClipboardAsDefaultRegister: true
-  "preview-plus": {}
+  "exception-reporting":
+    userId: "0521511c-8371-76de-eb8d-e549bc2bdb8e"
   linter: {}
-  "autocomplete-plus": {}
+  "preview-plus": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
+  "file-types":
+    ".*.yml$": "source.ansible"
+    ".*/group_vars/.*": "source.ansible"
+    ".*/host_vars/.*": "source.ansible"
